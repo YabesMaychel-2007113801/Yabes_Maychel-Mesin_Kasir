@@ -6,3 +6,6 @@ IF "jumlahItem" more than or equal 2
     STORE "diskon" with CALCULATE "hargaItem" multiply by 0.25
     STORE "hargaItem" with CALCULATE "hargaItem" subtract "diskon"
 END IF
+
+STORE "total" with CALCULATE "hargaItem" multiply by "jumlahItem"
+PRINT "total"
