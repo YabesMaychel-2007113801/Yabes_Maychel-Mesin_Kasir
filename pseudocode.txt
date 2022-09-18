@@ -1,3 +1,8 @@
 Read and Write "namaItem" with string
 Read and Write "jumlahItem" with number
 Read and Write "hargaItem" with number
+
+IF "jumlahItem" more than or equal 2
+    STORE "diskon" with CALCULATE "hargaItem" multiply by 0.25
+    STORE "hargaItem" with CALCULATE "hargaItem" subtract "diskon"
+END IF
