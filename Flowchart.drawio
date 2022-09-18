@@ -58,8 +58,20 @@
                 <mxCell id="13" value="hargaItem = hargaItem-diskon" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="520" y="530" width="150" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="15" value="total = hargaitem * jumlahItem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="350" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="20" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Output total" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="740" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="830" width="120" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
