@@ -1,0 +1,3 @@
+Read and Write "namaItem" with string
+Read and Write "jumlahItem" with number
+Read and Write "hargaItem" with number
