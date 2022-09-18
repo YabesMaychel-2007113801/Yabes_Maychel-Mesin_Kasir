@@ -28,8 +28,30 @@
                 <mxCell id="7" value="Input hargaitem" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
                     <mxGeometry x="350" y="310" width="120" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="12" value="True" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="9" value="jumlahItem &amp;gt;=2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="355" y="410" width="110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="11" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="diskon = hargaItem*0.25" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="420" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="410" y="560"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="harga Item = hargaItem-diskon" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="530" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="total = hargaitem * jumlahItem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="640" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
